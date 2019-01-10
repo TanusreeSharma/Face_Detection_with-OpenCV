@@ -3,7 +3,7 @@
 The following environment is used:
 
 
-       MacOX
+       MacOS
        
        Python 3.6.5
 
