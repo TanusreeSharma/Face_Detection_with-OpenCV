@@ -1,6 +1,6 @@
 # Face_Detection_with-OpenCV
 
-The following environment is used to develop the application:
+The following environment is used:
 
 
        MacOX
