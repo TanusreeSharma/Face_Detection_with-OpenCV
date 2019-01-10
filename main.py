@@ -12,12 +12,12 @@ output_folder = "output_test"
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # These file contains trained classifiers for detecting human face and cat face
-human_cas_file = "human.xml"
-cat_cas_file = "cat.xml"
+human_file = "human.xml"
+cat_file = "cat.xml"
 
 # Loading the classifier of faces of human and cat
-human_cas = cv2.CascadeClassifier(human_cas_file)
-cat_cas = cv2.CascadeClassifier(cat_cas_file)
+human_cas = cv2.CascadeClassifier(human_file)
+cat_cas = cv2.CascadeClassifier(cat_file)
 
 # Looping through each image of image list
 for img_file in img_ar:
@@ -50,7 +50,7 @@ for img_file in img_ar:
         img_gray,
         scaleFactor = 1.15,
         minNeighbors = 7,
-        minSize = (80,80)
+        minSize = (70,70)
         )
 
     # marking cat faces
